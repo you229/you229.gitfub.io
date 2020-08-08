@@ -1,5 +1,5 @@
-.title {
-  color: #02ccba;
+.li {
+  list-style: none;
 }
 
 header {
@@ -13,6 +13,7 @@ header {
 
 header p {
   font-weight: bold;
+  float: left;
 }
 
 .header-right li {
