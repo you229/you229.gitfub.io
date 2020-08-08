@@ -1,6 +1,7 @@
 
 body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  margin: 0;
 }
 
 li {
@@ -8,27 +9,41 @@ li {
 }
 
 header {
-  height: 90px;
+  height: 60px;
   width: 100%;
-  background-color: rgba(180, 215, 230, 0.7);
+  background-color: rgba(180, 215, 230, 0.3);
   color: rgba(0, 142, 209);
-/*   position: fixed; */
-/*   top: opx; */
+  position: fixed;
+  top: 0px
+
 }
 
 .header-logo {
-  font-weight: bold;
-  font-size: 36px
+  margin: 0 50px 0 20px;
   float: left;
-  padding: 33px 50px 33px 20px
+  font-weight: bold;
+  font-size: 20px
+  /* border: 10px solid black; */
 }
 
 .header-right li {
   float: left;
-  padding: 33px 20px
+  padding: 8px 20px
+  /* border: 10px solid white; */
 }
 
 .top-wrapper {
-  background-image: url(index-background.jpg);
+  background-image: url("background.jpg");
   background-size: cover;
+  height: 500px
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 15px;
+}
+.container h1 {
+  color: rgba(40, 160, 160);
+  letter-spacing: 10px;
 }
