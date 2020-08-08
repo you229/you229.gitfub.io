@@ -16,24 +16,19 @@ header {
   top: opx;
 }
 
-header p {
+.header-logo {
   font-weight: bold;
-  font-size: 30px
+  font-size: 36px
   float: left;
-  padding-right: 30px
-  display: inline-block;
-  height: 65px
+  padding: 33px 50px 33px 20px
 }
 
 .header-right li {
   float: left;
-  padding-right: 20px
-  display: inline-block
-  height: 65px:
+  padding: 33px 20px
 }
 
 .top-wrapper {
-  height: 500px
   background-image: url(index-background.jpg);
   background-size: cover;
 }
