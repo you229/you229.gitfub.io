@@ -23,6 +23,6 @@ header p {
 
 .top-wrapper {
   height: 500px
-  background-image: url(index-background);
+  background-image: url(index-background.png);
   background-size: cover;
 }
