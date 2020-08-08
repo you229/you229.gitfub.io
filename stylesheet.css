@@ -1,3 +1,4 @@
+
 body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
   margin: 0;
@@ -34,7 +35,9 @@ header {
 .top-wrapper {
   height: 500px;
   background-image: url("https://you229.github.io/background.jpg");
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
