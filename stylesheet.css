@@ -32,9 +32,9 @@ header {
 }
 
 .top-wrapper {
+  height: 500px;
   background-image: url("https://you229.github.io/background.jpg");
   background-size: cover;
-  height: 400px
 }
 
 .container {
