@@ -1,4 +1,4 @@
-.li {
+li {
   list-style: none;
 }
 
@@ -13,11 +13,13 @@ header {
 
 header p {
   font-weight: bold;
+  font-size: 30px
   float: left;
+  padding-right: 30px
 }
 
 .header-right li {
-  float: right;
+  float: left;
   padding-right: 20px
 }
 
